@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(29, 33, 34)
+}
+.container{
+    background-color: rgb(29, 33, 34);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 15%;
+    box-shadow: 1px 1px 20px rgb(67, 67, 67);
+    padding-top: 2%;
+    
+}
+.title{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: xx-large;
+    justify-content:center;
+
+}
+.dial{
+    /* display: flex;
+    justify-content: center;  */
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 40%;
+    padding: 0%;
+    margin: 0%;
+    width: fit-content;
+}
+
+.screen{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    width: fit-content;
+    bottom: 0%;
+
+}
+.clock{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    bottom: 46.5%;
+    left: 24.8%;
+    font-family: sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#start{
+    background-color:rgb(67, 151, 61);
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#clear{
+    background-color:rgb(255, 255, 255);
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#lap{
+    background-color:rgb(67, 151, 61);
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.button button:hover{
+    box-shadow: 1px 1px 20px rgb(61, 60, 60);
+}
+#lapCount{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    margin-left: 45.5%;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    
+
+}
+.lapData{
+    width: 3.5rem;
+    padding-left: 2%;
+    display: flex;
+    margin-left: 46.25%;
+    margin-top: .5%;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    color: white;
+
+}
